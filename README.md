@@ -4,4 +4,4 @@ DO: `pip install -r requirements.txt`
 RUN: `streamlit run webapp.py`
 
 
-change the path of ffmpeg and best.pt
+change the path of ffmpeg 
