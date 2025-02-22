@@ -12,7 +12,7 @@ import subprocess
 os.makedirs('uploads', exist_ok=True) #it helps to create the directory of it exist it won't throw any error
 
 # Initialize YOLOv8 model (replace with the correct path to your trained model)
-model = YOLO(r"C:\suhas photo\train\trains\runs\detect\custom_yolo_v8_scratch8\weights\best.pt")  # Adjust the path as needed
+model = YOLO(r"best.pt")  # Adjust the path as needed
 
 # Sidebar menu
 page = st.sidebar.selectbox("Pages Menu", options=['Home', 'Using Image', 'Using Video', 'Live Camera']) #selected option stored page
